@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videojuegos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scipt.js"></script>
+</head>
+
+<body class="body">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top navbarStyles">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <img src="img/Logo.png" alt="logo" class="img-fluid logoImage" />
+                </li>
+                <li class="nav-item titleP">
+                    <p>Videojuegos</p>
+                </li>
+                <li class="nav-item selector">
+                    <div class="form-group">
+                        <select class="form-control" id="genreValue">
+                            <option id="option-null" value="null">Seleccione un género</option>
+                            <option value="Todos">Todos</option>
+                            <option value="Deportes">Deportes</option>
+                            <option value="Conducción">Conducción</option>
+                            <option value="Carreras">Carreras</option>
+                            <option value="Simulación">Simulación</option>
+                            <option value="Shooter">Shooter</option>
+                            <option value="FPS">FPS</option>
+                            <option value="TPS">TPS</option>
+                            <option value="RPG">RPG</option>
+                            <option value="JRPG">JRPG</option>
+                            <option value="Action RPG">Action RPG</option>
+                            <option value="MMORPG">MMORPG</option>
+                            <option value="Souls-like">Souls-like</option>
+                            <option value="Hack'n Slash">Hack'n Slash</option>
+                            <option value="Acción">Acción</option>
+                            <option value="Aventura">Aventura</option>
+                            <option value="Rogue-like">Rogue-like</option>
+                            <option value="Puzzles">Puzzles</option>
+                            <option value="Supervivencia">Supervivencia</option>
+                            <option value="Terror">Terror</option>
+                            <option value="Survival Horror">Survival Horror</option>
+                            <option value="Mundo abierto">Mundo abierto</option>
+                            <option value="Sandbox">Sandbox</option>
+                            <option value="Estrategia">Estrategia</option>
+                            <option value="Plataformas">Plataformas</option>
+                            <option value="Arcade">Arcade</option>
+                            <option value="Retro">Retro</option>
+                            <option value="Crimen">Crimen</option>
+                            <option value="Ambientación histórica">Ambientación histórica</option>
+                            <option value="Piratas">Piratas</option>
+                            <option value="Sigilo">Sigilo</option>
+                            <option value="Lucha">Lucha</option>
+                            <option value="Construcción">Construcción</option>
+                            <option value="Historia">Historia</option>
+                            <option value="Un jugador">Un jugador</option>
+                            <option value="Cooperativo">Cooperativo</option>
+                            <option value="Online">Online</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="nav-item searchButton">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Título del juego" id="nameValue">
+                        <div class="input-group-append">
+                            <button class="btn btn-info" type="submit" id="nameSearch">Buscar</button>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item searchButton">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Desarrolladora" id="developerValue">
+                        <div class="input-group-append">
+                            <button class="btn btn-info" type="submit" id="developerSearch">Buscar</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br />
+    <br />
+
+    <div class="container contentDiv">
+        <br />
+        <br />
+        <div id="contenido" class="row"></div>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <br />
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 style="font-size: x-large; font-weight: 600;">La Gran Biblioteca de Videojuegos</h1>
+                    <p class="footerParagraphs">Busca y consulta tus juegos favoritos de forma interactiva.</p>
+                    <p class="footerParagraphs">Puedes filtrar por título, por géneros o por compañías.</p>
+                </div>
+                <div class="col-sm-6">
+                    <h1 style="font-size: x-large; font-weight: 400;">Gracias por su visita</h1>
+                    <p class="footerParagraphs">Proyecto realizado por Pedro García Hernández para IES El Rincón.</p>
+                    <a href="videogames.xml"><img src="img/xml.jpg" alt="XML" style='width: 60px;'></a>
+                    <p class="footerParagraphs">Pincha en el icono para visualizar el XML usado para almacenar la
+                        información.</p>
+                </div>
+            </div>
+            <br />
+        </div>
+    </footer>
+
+</body>
+
+</html>

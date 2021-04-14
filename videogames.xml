@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<videogames>
+
+    <videogame>
+        <name>Grand Theft Auto V</name>
+        <categories>
+            <category>Acción</category>
+            <category>Shooter</category>
+            <category>TPS</category>
+            <category>Conducción</category>
+            <category>Mundo abierto</category>
+            <category>Crimen</category>
+            <category>Un jugador</category>
+            <category>Online</category>
+        </categories>
+        <releaseYear>2013</releaseYear>
+        <developers>
+            <developer>Rockstar Games</developer>
+            <developer>Rockstar North</developer>
+        </developers>
+        <price>29.98</price>
+        <image>img/GTAV.jpg</image>
+    </videogame>
+
+    <videogame>
+        <name>Red Dead Redemption 2</name>
+        <categories>
+            <category>Shooter</category>
+            <category>TPS</category>
+            <category>Mundo abierto</category>
+            <category>Un jugador</category>
+            <category>Historia</category>
+            <category>Ambientación histórica</category>
+            <category>Crimen</category>
+        </categories>
+        <releaseYear>2018</releaseYear>
+        <developers>
+            <developer>Rockstar Games</developer>
+        </developers>
+        <price>59.99</price>
+        <image>img/RDR2.jpeg</image>
+    </videogame>
+
+    <videogame>
+        <name>The Legend of Zelda: Breath of the Wild</name>
+        <categories>
+            <category>JRPG</category>
+            <category>Action RPG</category>
+            <category>Puzzles</category>
+            <category>Mundo abierto</category>
+            <category>Sandbox</category>
+            <category>Aventura</category>
+            <category>Un jugador</category>
+        </categories>
+        <releaseYear>2017</releaseYear>
+        <developers>
+            <developer>Nintendo</developer>
+        </developers>
+        <price>49.99</price>
+        <image>img/TLoZBotW.jpg</image>
+    </videogame>
+
+    <videogame>
+        <name>Assassin's Creed Unity</name>
+        <categories>
+            <category>RPG</category>
+            <category>Action RPG</category>
+            <category>Plataformas</category>
+            <category>Mundo abierto</category>
+            <category>Ambientación histórica</category>
+            <category>Sigilo</category>
+            <category>Un jugador</category>
+            <category>Cooperativo</category>
+        </categories>
+        <releaseYear>2014</releaseYear>
+        <developers>
+            <developer>Ubisoft</developer>
+            <developer>Ubisoft Montreal</developer>
+            <developer>Ubisoft Quebec</developer>
+        </developers>
+        <price>19.99</price>
+        <image>img/ACUnity.jpg</image>
+    </videogame>
+
+    <videogame>
+        <name>Tetris</name>
+        <categories>
+            <category>Puzzles</category>
+            <category>Arcade</category>
+            <category>Un jugador</category>
+            <category>Retro</category>
+        </categories>
+        <releaseYear>1984</releaseYear>
+        <developers>
+            <developer>Alekséi Pázhitnov</developer>
+        </developers>
+        <price>4.99</price>
+        <image>img/Tetris.jpg</image>
+    </videogame>
+
+    <videogame>
+        <name>Minecraft</name>
+        <categories>
+            <category>Aventura</category>
+            <category>Supervivencia</category>
+            <category>Mundo abierto</category>
+            <category>Sandbox</category>
+            <category>Un jugador</category>
+            <category>Online</category>
+            <category>Cooperativo</category>
+            <category>Construcción</category>
+        </categories>
+        <releaseYear>2009</releaseYear>
+        <developers>
+            <developer>Markus Persson</developer>
+            <developer>Mojang</developer>
+            <developer>Microsoft Studios</developer>
+        </developers>
+        <price>19.99</price>
+        <image>img/Minecraft.png</image>
+    </videogame>
+
+    <videogame>
+        <name>Resident Evil 4</name>
+        <categories>
+            <category>Shooter</category>
+            <category>TPS</category>
+            <category>Puzzles</category>
+            <category>Acción</category>
+            <category>Terror</category>
+            <category>Survival Horror</category>
+            <category>Un jugador</category>
+        </categories>
+        <releaseYear>2005</releaseYear>
+        <developers>
+            <developer>Capcom</developer>
+        </developers>
+        <price>19.99</price>
+        <image>img/RE4.png</image>
+    </videogame>
+
+    <videogame>
+        <name>Final Fantasy VII</name>
+        <categories>
+            <category>JRPG</category>
+            <category>Aventura</category>
+            <category>Acción</category>
+            <category>Mundo abierto</category>
+            <category>Un jugador</category>
+            <category>Historia</category>
+        </categories>
+        <releaseYear>1997</releaseYear>
+        <developers>
+            <developer>Square Soft</developer>
+        </developers>
+        <price>12.99</price>
+        <image>img/FF7.jpg</image>
+    </videogame>
+
+    <videogame>
+        <name>Kingdom Hearts</name>
+        <categories>
+            <category>JRPG</category>
+            <category>Action RPG</category>
+            <category>Aventura</category>
+            <category>Plataformas</category>
+            <category>Hack'n Slash</category>
+            <category>Un jugador</category>
+            <category>Historia</category>
+        </categories>
+        <releaseYear>2002</releaseYear>
+        <developers>
+            <developer>Square Soft</developer>
+            <developer>Disney Interactive Studios</developer>
+        </developers>
+        <price>19.99</price>
+        <image>img/KH.jpg</image>
+    </videogame>
+
+    <videogame>
+        <name>Forza Horizon 4</name>
+        <categories>
+            <category>Deportes</category>
+            <category>Conducción</category>
+            <category>Carreras</category>
+            <category>Arcade</category>
+            <category>Mundo abierto</category>
+            <category>Un jugador</category>
+            <category>Online</category>
+        </categories>
+        <releaseYear>2018</releaseYear>
+        <developers>
+            <developer>Playground Games</developer>
+            <developer>Turn 10 Studios</developer>
+            <developer>Microsoft Studios</developer>
+        </developers>
+        <price>49.99</price>
+        <image>img/FH4.jpg</image>
+    </videogame>
+
+    <videogame>
+        <name>Super Mario Bros</name>
+        <categories>
+            <category>Plataformas</category>
+            <category>Un jugador</category>
+            <category>Retro</category>
+        </categories>
+        <releaseYear>1985</releaseYear>
+        <developers>
+            <developer>Nintendo</developer>
+        </developers>
+        <price>2.99</price>
+        <image>img/SMB.jpg</image>
+    </videogame>
+
+    <videogame>
+        <name>Devil May Cry</name>
+        <categories>
+            <category>JRPG</category>
+            <category>Action RPG</category>
+            <category>Aventura</category>
+            <category>Hack'n Slash</category>
+            <category>Un jugador</category>
+            <category>Historia</category>
+        </categories>
+        <releaseYear>2001</releaseYear>
+        <developers>
+            <developer>Capcom</developer>
+        </developers>
+        <price>9.99</price>
+        <image>img/DMC.jpg</image>
+    </videogame>
+
+    <videogame>
+        <name>Sea of Thieves</name>
+        <categories>
+            <category>FPS</category>
+            <category>Puzzles</category>
+            <category>Aventura</category>
+            <category>Acción</category>
+            <category>Sandbox</category>
+            <category>Online</category>
+            <category>Piratas</category>
+            <category>Cooperativo</category>
+        </categories>
+        <releaseYear>2018</releaseYear>
+        <developers>
+            <developer>Rare</developer>
+            <developer>Microsoft Studios</developer>
+        </developers>
+        <price>39.99</price>
+        <image>img/SoT.jpg</image>
+    </videogame>
+
+    <videogame>
+        <name>FIFA 21</name>
+        <categories>
+            <category>Deportes</category>
+            <category>Un jugador</category>
+            <category>Online</category>
+        </categories>
+        <releaseYear>2020</releaseYear>
+        <developers>
+            <developer>EA</developer>
+            <developer>EA Sports</developer>
+        </developers>
+        <price>59.99</price>
+        <image>img/FIFA21.jpeg</image>
+    </videogame>
+
+    <videogame>
+        <name>Banjo-Kazooie</name>
+        <categories>
+            <category>Aventura</category>
+            <category>Plataformas</category>
+            <category>Un jugador</category>
+        </categories>
+        <releaseYear>1998</releaseYear>
+        <developers>
+            <developer>Rareware</developer>
+            <developer>Nintendo</developer>
+        </developers>
+        <price>14.99</price>
+        <image>img/BK.jpg</image>
+    </videogame>
+
+</videogames>

@@ -1,0 +1,74 @@
+.body {
+    background-color: rgba(6, 2, 61, 0.89);
+
+}
+
+.titleP {
+    color: white;
+    margin-right: 1cm;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+
+.selector {
+    margin-top: 0.25cm;
+    margin-right: 0.5cm;
+
+}
+
+.searchButton {
+    margin-top: 0.25cm;
+    margin-right: 0.5cm;
+
+}
+
+.logoImage {
+    width: 100px;
+    margin-right: 0.1cm;
+    margin-top: 0.1cm;
+
+}
+
+#footer {
+    bottom: 0;
+    background:rgb(41, 41, 41);
+    color:white;
+    position:inherit;
+    width:100%;
+
+}
+
+.footerParagraphs {
+    font-size: medium; 
+    font-weight: 300;
+
+}
+
+.navbarStyles {
+    width: 400;
+
+}
+
+.contentDiv {
+    background-color: rgba(255, 255, 255, 0.897);
+    color: black;
+
+}
+
+.imgContent {
+    width: 220px;
+    margin-left: 0.8cm;
+    margin-right: 0.8cm;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+
+}
+
+.gamesInfo {
+    margin-left: 0.5cm;
+    font-weight: bold;
+    width: 220px;
+    font-size: large;
+
+}
