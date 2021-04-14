@@ -38,9 +38,10 @@ body {
 
 #footer {
     bottom: 0;
+    left: 0;
     background:rgb(41, 41, 41);
     color:white;
-    position:absolute;
+    position: absolute;
     width:100%;
 
 }
@@ -59,6 +60,8 @@ body {
 .contentDiv {
     background-color: rgba(255, 255, 255, 0.897);
     color: black;
+    min-height: 75vh;
+    margin-bottom: 200px;
 
 }
 
