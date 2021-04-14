@@ -1,5 +1,11 @@
-.body {
+html {
+    position: relative;
+
+}
+
+body {
     background-color: rgba(6, 2, 61, 0.89);
+    margin: 0;
 
 }
 
@@ -34,7 +40,7 @@
     bottom: 0;
     background:rgb(41, 41, 41);
     color:white;
-    position:inherit;
+    position:absolute;
     width:100%;
 
 }
