@@ -56,9 +56,13 @@ window.onload = () => {
 
         }
 
-        var nameSearch = document.getElementById("nameSearch");
+        document.getElementById("contenido").innerHTML = txt;
+        
+    }
+
+    var nameSearch = document.getElementById("nameSearch");
         nameSearch.addEventListener("click", (e) => {
-            console.clear();
+            // console.clear();
 
             genreSearch.value = "null";
 
@@ -68,14 +72,14 @@ window.onload = () => {
             var name = document.getElementById("nameValue");
             filter = name.value;
             path = `/videogames/videogame/name[contains(text(), '${filter}')]`
-            showResult(xml);
+            showResult(xhttp.responseXML);
 
         });
 
         var genreSearch = document.getElementById("genreValue");
         console.log(genreSearch);
         genreSearch.addEventListener("change", (e) => {
-            console.clear();
+            // console.clear();
 
             var name = document.getElementById("nameValue");
             name.value = null;
@@ -83,23 +87,23 @@ window.onload = () => {
             var developer = document.getElementById("developerValue");
             developer.value = null;
 
-            genreSearch = genreSearch.value;
-            console.log(genreSearch);
+            let genreSearchValue = genreSearch.value;
+            console.log(genreSearchValue);
 
-            if (genreSearch == 'null') {
+            if (genreSearchValue == 'null') {
                 path = `/videogames/videogame/name`
                 console.log("pass");
-                showResult(xml);
+                showResult(xhttp.responseXML);
 
-            } else if (genreSearch == 'Todos') {
+            } else if (genreSearchValue == 'Todos') {
                 path = `/videogames/videogame/name`
                 console.log("all");
-                showResult(xml);
+                showResult(xhttp.responseXML);
 
             } else {
-                path = `/videogames/videogame[categories/category = "${genreSearch}"]/name`
+                path = `/videogames/videogame[categories/category = "${genreSearchValue}"]/name`
                 console.log("different");
-                showResult(xml);
+                showResult(xhttp.responseXML);
 
             }
 
@@ -107,7 +111,7 @@ window.onload = () => {
 
         var developerSearch = document.getElementById("developerSearch");
         developerSearch.addEventListener("click", (e) => {
-            console.clear();
+            // console.clear();
 
             var name = document.getElementById("nameValue");
             name.value = null;
@@ -117,14 +121,8 @@ window.onload = () => {
             var developer = document.getElementById("developerValue");
             filter = developer.value;
             path = `/videogames/videogame[developers/developer = "${filter}"]/name`
-            showResult(xml);
+            showResult(xhttp.responseXML);
 
         });
-
-        document.getElementById("contenido").innerHTML = txt;
-        
-    }
-
-    
 
 };
